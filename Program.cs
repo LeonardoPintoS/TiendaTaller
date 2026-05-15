@@ -7,3 +7,4 @@ var app = builder.Build();
 app.MapOpenApi();
 
 app.Run();
+// algo
