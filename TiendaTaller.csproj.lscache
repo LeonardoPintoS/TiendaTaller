@@ -58,6 +58,22 @@ obj/Debug/net9.0/
  TiendaTaller.AssemblyInfo.cs
  TiendaTaller.GlobalUsings.g.cs
 Program.cs
+src/Domain/Models/
+ Brand.cs
+ Category.cs
+ Image.cs
+ Product.cs
+ Role.cs
+ User.cs
+src/Infrastructure/Data/
+ DataContext.cs
+ DataSeeder.cs
+ Migrations/
+  20260517040114_InitialMigration.cs
+  20260517040114_InitialMigration.Designer.cs
+  20260517051446_SecondMigration.cs
+  20260517051446_SecondMigration.Designer.cs
+  DataContextModelSnapshot.cs
 
 [metadataReferences]
 <DOTNET>/packs/Microsoft.AspNetCore.App.Ref/9.0.14/ref/net9.0/
@@ -365,8 +381,16 @@ Program.cs
  System.Xml.XPath.XDocument.dll
  WindowsBase.dll
 <NUGET>/
+ bcrypt.net-next/4.2.0/lib/netstandard2.1/BCrypt-Net-Next.dll
+ bogus/35.6.5/lib/net6.0/Bogus.dll
+ dotnetenv/3.2.0/lib/netstandard2.0/DotNetEnv.dll
  microsoft.aspnetcore.openapi/9.0.14/lib/net9.0/Microsoft.AspNetCore.OpenApi.dll
- microsoft.extensions.dependencymodel/8.0.2/lib/net8.0/Microsoft.Extensions.DependencyModel.dll
+ microsoft.data.sqlite.core/9.0.0/lib/net8.0/Microsoft.Data.Sqlite.dll
+ microsoft.entityframeworkcore.abstractions/9.0.0/lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+ microsoft.entityframeworkcore.relational/9.0.0/lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+ microsoft.entityframeworkcore.sqlite.core/9.0.0/lib/net8.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+ microsoft.entityframeworkcore/9.0.0/lib/net8.0/Microsoft.EntityFrameworkCore.dll
+ microsoft.extensions.dependencymodel/9.0.0/lib/net9.0/Microsoft.Extensions.DependencyModel.dll
  microsoft.openapi/1.6.17/lib/netstandard2.0/Microsoft.OpenApi.dll
  serilog.aspnetcore/8.0.3/lib/net8.0/Serilog.AspNetCore.dll
  serilog.extensions.hosting/8.0.0/lib/net8.0/Serilog.Extensions.Hosting.dll
@@ -377,6 +401,10 @@ Program.cs
  serilog.sinks.debug/2.0.0/lib/netstandard2.1/Serilog.Sinks.Debug.dll
  serilog.sinks.file/5.0.0/lib/net5.0/Serilog.Sinks.File.dll
  serilog/4.3.1/lib/net9.0/Serilog.dll
+ sqlitepclraw.bundle_e_sqlite3/2.1.10/lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll
+ sqlitepclraw.core/2.1.10/lib/netstandard2.0/SQLitePCLRaw.core.dll
+ sqlitepclraw.provider.e_sqlite3/2.1.10/lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll
+ superpower/3.0.0/lib/net5.0/Superpower.dll
 
 [analyzerReferences]
 <DOTNET>/packs/Microsoft.AspNetCore.App.Ref/9.0.14/analyzers/dotnet/cs/
@@ -404,6 +432,10 @@ Program.cs
 <DOTNET>/sdk/9.0.312/Sdks/Microsoft.NET.Sdk/analyzers/
  Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
  Microsoft.CodeAnalysis.NetAnalyzers.dll
+<NUGET>/microsoft.codeanalysis.analyzers/3.3.4/analyzers/dotnet/cs/
+ Microsoft.CodeAnalysis.Analyzers.dll
+ Microsoft.CodeAnalysis.CSharp.Analyzers.dll
+<NUGET>/microsoft.entityframeworkcore.analyzers/9.0.0/analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll
 
 [analyzerConfigFiles]
 .editorconfig
